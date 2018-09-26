@@ -52,6 +52,8 @@ Comandos que configuram o Log:
   
   - con_logfile <nome do arquivo>  habilita a produção de um log das informações escritas no console com um nome escolhido pelo o usuário na pasta: “C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2”
 
+Links relacionados com Vscripts:
+  - https://developer.valvesoftware.com/wiki/List_of_Portal_2_Script_Functions
 
 
 

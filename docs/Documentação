@@ -1,0 +1,26 @@
+# Documentação
+
+## Alguns comandos do console importantes:
+  
+Comandos que mostram informações relevantes:
+  
+  - developer 2  mostra mudanças no console no canto da tela e habilita algumas informações 
+  
+  - net_dumpeventstats   gera um relatório dos eventos que ocorreram nessa sessão de jogo
+  
+  - net_showevents Reporta quando um evento acontece
+
+Comandos que configuram o Log: 
+ 
+  - log on habilita o log das informações da fase em arquivos de texto na pasta “C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\logs” 
+
+  - log_dumpchannels mostra informações dos canais de log
+
+  - condump   manda as informações que estão escritas atualmente no console para um arquivo chamado “condump000”
+  
+  - con_logfile <nome do arquivo>  habilita a produção de um log das informações escritas no console com um nome escolhido pelo o usuário na pasta: “C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2”
+
+## Funções do Vscript:
+
+- SendToConsole(string command)   manda uma string como comando para o console (Parece não funcionar no "mapspawn.nut") 
+- println ()   manda uma string para o console

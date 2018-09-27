@@ -1,0 +1,17 @@
+# Relatório
+
+## Semana 1 (17/09 - 24/09) 
+- Usando "net_showevents 1" foi possível imprimir no console algumas informações úteis.
+- Usando "con_logfile <nome do arquivo>" foi possível salvar um log das informações do console em 
+  um arquivo na pasta "C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2". 
+- Usando "log_dumpchannels" é possivel encontrar algumas informações últeis sobre o que é logado.
+- Usando "log_flag" é possivel configurar que informações vão aparecer no log ou console.
+
+## Semana 2 (24/09 - 01/10)
+- O Vscript "mapspawn.nut" é chamado sempre que um level é iniciado
+- Não parece ser possivel utilizar a função "SendToConsole(string command)" no script "mapspawn.nut"
+- É possivel criar um arquivo chamado "autoexec.cfg" que contem uma série de comandos de console que 
+  são executados quando o jogo é iniciado. 
+- O arquivo "autoexec.cfg" fica na pasta "C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\cfg"
+  
+

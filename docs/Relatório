@@ -13,5 +13,9 @@
 - É possivel criar um arquivo chamado "autoexec.cfg" que contem uma série de comandos de console que 
   são executados quando o jogo é iniciado. 
 - O arquivo "autoexec.cfg" fica na pasta "C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\cfg"
+- Foi feita uma fase no Hammer
+- Foi usada uma entidade logic_auto para rodar um script sempre que o mapa é iniciado
+- Falta acharmos uma maneira de configurar um titulo dinamicamente para o log
+
   
 

@@ -16,7 +16,7 @@ Comandos que configuram o Log:
 
   - log_dumpchannels mostra informações dos canais de log
 
-  - condump   manda as informações que estão escritas atualmente no console para um arquivo chamado “condump000”
+  - condump   manda as informações que estão escritas atualmente no console para um arquivo chamado “condump + incremento"
   
   - con_logfile <nome do arquivo>  habilita a produção de um log das informações escritas no console com um nome escolhido pelo o usuário na pasta: “C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2”
 

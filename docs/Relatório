@@ -17,5 +17,10 @@
 - Foi usada uma entidade logic_auto para rodar um script sempre que o mapa é iniciado
 - Falta acharmos uma maneira de configurar um titulo dinamicamente para o log
 
+## Semana 3 (01/10 - 09/10)
+- Não parece ser possivel utilizar outras funções próprias do Squirrel que não sejam as listadas pela valve.
+- Parecem existir opções de Binding, mas não sei se isso vai ajudar (Link no arquivo de Links).
+- É possivel criar os logs quando usando o "condump" dessa forma é criado um arquivo com nome incrementado. 
+- Outra opção seria um programa que edita o nome dos arquivos de logs e já organiza as informações neles. 
   
 

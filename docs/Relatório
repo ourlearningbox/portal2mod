@@ -23,4 +23,8 @@
 - É possivel criar os logs quando usando o "condump" dessa forma é criado um arquivo com nome incrementado. 
 - Outra opção seria um programa que edita o nome dos arquivos de logs e já organiza as informações neles. 
   
-
+## Semana 4 (09/10 - 15/10)
+- Habituação com Python 3 
+- Estudar Regex
+- Parece ser mais complicado usar Regex do que usar String Methods para fazer a conversão do log
+- Protótipo de conversor de log 

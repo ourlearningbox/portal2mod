@@ -9,6 +9,12 @@ Comandos que mostram informações relevantes:
   - net_dumpeventstats   gera um relatório dos eventos que ocorreram nessa sessão de jogo
   
   - net_showevents Reporta quando um evento acontece
+  
+  - portal_report Reporta a localização dos portais ativos no momento
+  
+  - spec_pos  mostra posição e angulo de visão
+  
+  -cl_showpos mostra posição atual na tela
 
 Comandos que configuram o Log: 
  

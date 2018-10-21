@@ -30,3 +30,8 @@ Comandos que configuram o Log:
 
 - SendToConsole(string command)   manda uma string como comando para o console (Parece não funcionar no "mapspawn.nut") 
 - println ()   manda uma string para o console
+
+## Entidades Lógicas
+- logic_achievement usada para controlar o sistema de achievements
+- logic_timer É usado ativar um evento perioticamente 
+- 

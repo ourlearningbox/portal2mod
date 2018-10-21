@@ -28,3 +28,8 @@
 - Estudar Regex
 - Parece ser mais complicado usar Regex do que usar String Methods para fazer a conversão do log
 - Protótipo de conversor de log 
+
+## Semana 5 (15/10 - 23/10)
+- É possivel imprimir no console a posição atual do player e seu angulo de visão com o comando " spec_pos "
+- É necessário encontrar uma entidade lógica que posso ser ativada quando o player se movimenta ou rode continuamente durante o Jogo
+- Ler sobre as entidades lógicas no site da valve

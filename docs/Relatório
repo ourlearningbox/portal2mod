@@ -33,3 +33,4 @@
 - É possivel imprimir no console a posição atual do player e seu angulo de visão com o comando " spec_pos "
 - É necessário encontrar uma entidade lógica que posso ser ativada quando o player se movimenta ou rode continuamente durante o Jogo
 - Ler sobre as entidades lógicas no site da valve
+- É possivel ficar imprimindo no console periodicamente a posição do jogador através da entidade "logic_timer" 

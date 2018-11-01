@@ -40,3 +40,5 @@
 - Quando baixamos uma fase feita por outra pessoa o arquivo vem com uma extensão ".bsp" que não possibilita a edição no Hammer
 - Para que seja possível a edição é necessário descompilar o ".bsp" criando um arquivo ".vmf" isso pode ser feito com o "BSPSource"
 - Quando não apertamos 'E' para interagir com um objeto não é gerado um "Game event" logo não é conciderado no nosso log
+- Pausar o jogo impede/dificulta a sincronização do tempo do jogo (que também é pausado) com o tempo de eventos externos ao jogo
+  (como a captura de tela, o registro de mouse e teclado por meio de programas auxiliares)  

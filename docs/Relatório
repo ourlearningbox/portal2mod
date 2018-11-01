@@ -8,14 +8,14 @@
 - Usando "log_flag" é possivel configurar que informações vão aparecer no log ou console.
 
 ## Semana 2 (24/09 - 01/10)
-- O Vscript "mapspawn.nut" é chamado sempre que um level é iniciado
-- Não parece ser possivel utilizar a função "SendToConsole(string command)" no script "mapspawn.nut"
+- O Vscript "mapspawn.nut" é chamado sempre que um level é iniciado.
+- Não parece ser possivel utilizar a função "SendToConsole(string command)" no script "mapspawn.nut".
 - É possivel criar um arquivo chamado "autoexec.cfg" que contem uma série de comandos de console que 
   são executados quando o jogo é iniciado. 
-- O arquivo "autoexec.cfg" fica na pasta "C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\cfg"
-- Foi feita uma fase no Hammer
-- Foi usada uma entidade logic_auto para rodar um script sempre que o mapa é iniciado
-- Falta acharmos uma maneira de configurar um titulo dinamicamente para o log
+- O arquivo "autoexec.cfg" fica na pasta "C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\cfg".
+- Foi feita uma fase no Hammer.
+- Foi usada uma entidade logic_auto para rodar um script sempre que o mapa é iniciado.
+- Falta acharmos uma maneira de configurar um titulo dinamicamente para o log.
 
 ## Semana 3 (01/10 - 09/10)
 - Não parece ser possivel utilizar outras funções próprias do Squirrel que não sejam as listadas pela valve.
@@ -24,21 +24,21 @@
 - Outra opção seria um programa que edita o nome dos arquivos de logs e já organiza as informações neles. 
   
 ## Semana 4 (09/10 - 15/10)
-- Habituação com Python 3 
-- Estudar Regex
-- Parece ser mais complicado usar Regex do que usar String Methods para fazer a conversão do log
-- Protótipo de conversor de log 
+- Habituação com Python 3.
+- Estudar Regex.
+- Parece ser mais complicado usar Regex do que usar String Methods para fazer a conversão do log.
+- Protótipo de conversor de log. 
 
 ## Semana 5 (15/10 - 23/10)
-- É possivel imprimir no console a posição atual do player e seu angulo de visão com o comando " spec_pos "
-- É necessário encontrar uma entidade lógica que posso ser ativada quando o player se movimenta ou rode continuamente durante o Jogo
-- Ler sobre as entidades lógicas no site da valve
-- É possivel ficar imprimindo no console periodicamente a posição do jogador através da entidade "logic_timer"
+- É possivel imprimir no console a posição atual do player e seu angulo de visão com o comando " spec_pos ".
+- É necessário encontrar uma entidade lógica que posso ser ativada quando o player se movimenta ou rode continuamente durante o Jogo.
+- Ler sobre as entidades lógicas no site da valve.
+- É possivel ficar imprimindo no console periodicamente a posição do jogador através da entidade "logic_timer".
 
 ## Semana 6 (23/10 - 30/10)
-- Foi feito um script que tabula os dados do log em um arquivo CSV
-- Quando baixamos uma fase feita por outra pessoa o arquivo vem com uma extensão ".bsp" que não possibilita a edição no Hammer
-- Para que seja possível a edição é necessário descompilar o ".bsp" criando um arquivo ".vmf" isso pode ser feito com o "BSPSource"
-- Quando não apertamos 'E' para interagir com um objeto não é gerado um "Game event" logo não é conciderado no nosso log
+- Foi feito um script que tabula os dados do log em um arquivo CSV.
+- Quando baixamos uma fase feita por outra pessoa o arquivo vem com uma extensão ".bsp" que não possibilita a edição no Hammer.
+- Para que seja possível a edição é necessário descompilar o ".bsp" criando um arquivo ".vmf" isso pode ser feito com o "BSPSource".
+- Quando não apertamos 'E' para interagir com um objeto não é gerado um "Game event" logo não é considerado no nosso log.
 - Pausar o jogo impede/dificulta a sincronização do tempo do jogo (que também é pausado) com o tempo de eventos externos ao jogo
-  (como a captura de tela, o registro de mouse e teclado por meio de programas auxiliares)  
+  (como a captura de tela, o registro de mouse e teclado por meio de programas auxiliares).  

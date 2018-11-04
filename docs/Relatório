@@ -42,3 +42,18 @@
 - Quando não apertamos 'E' para interagir com um objeto não é gerado um "Game event" logo não é considerado no nosso log.
 - Pausar o jogo impede/dificulta a sincronização do tempo do jogo (que também é pausado) com o tempo de eventos externos ao jogo
   (como a captura de tela, o registro de mouse e teclado por meio de programas auxiliares).  
+
+## Semana 7 (30/10 - )
+- Se oservarmos os "Game Events" conseguimos algumas informações relevantes como :
+  * Player interage com entidades utilizando o a tecla "E"
+  * Player "vê" uma certa entidade
+  * Player dispara um portal
+  * Player solta uma entidade
+  * Player volta a tocar o chão
+  * Player entra em um portal
+ - Não é possivel conseguir informações de quando o Player interage com uma entidade sem apertar a tecla "E" observando 
+   apenas os "Games Events"
+ - É necessário então observar também quando certos input e outpouts são ativados
+ - Input e outputs são logados com um tempo diferente do Tick dos "Game Events"
+ - Seria possivel converter um tempo para o outro, mas seria necessário que um certo evento gerassem um Tick e um tempo de input/output
+ - Poderiamos fazer issso colocando sempre uma antesala com um prop_button

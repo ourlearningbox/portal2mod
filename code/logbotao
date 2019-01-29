@@ -1,0 +1,469 @@
+Geras unpaused the game
+Game event "player_landed", Tick 1000:
+- "userid" = "8"
+Game event "player_landed", Tick 2784:
+- "userid" = "8"
+*** ERROR: Bone access not allowed (entity 14:viewmodel)
+(49.18) input : obutaozim.Use()
+Game event "player_use", Tick 2952:
+- "userid" = "8"
+- "entity" = "10"
+(50.43) output: (prop_button,obutaozim) -> (obutaozim,RunScriptCode)(yourFunctionName())
+(50.43) input obutaozim: obutaozim.RunScriptCode(yourFunctionName())
+Mudou?
+Stopping All Sounds...
+Stopping: Channel:64 player\player_fall_whoosh_lp_01.wav
+Queued Material System: DISABLED!
+Stopping All Sounds...
+Warning: Deleting orphaned children of player
+Dropped Geras from server (Server shutting down)
+  Adjusting game players 1.
+            game players = 1
+maxplayers set to 1
+---- Host_NewGame ----
+Execing config: game.cfg
+Network: IP 192.168.25.137, mode SP, dedicated No, ports 0 SV / 0 CL
+Opened Steam Socket NS_SERVER ( socket 3764 )
+Opened Steam Socket NS_CLIENT ( socket 4012 )
+Network: IP 192.168.25.137, mode MP, dedicated No, ports 27015 SV / 27005 CL
+Spawn Server: tutorial01
+Loading: maps/tutorial01.bsp
+Loading type: 1
+Loading brush, compacting heap...
+Loading map: maps/tutorial01.bsp
+Hunk_OnMapStart: 41943040
+Loading map: BeginLoadingUpdates...
+Loading map: Map_LoadModel...
+Loading: models/maps/tutorial01/simpleworldmodel.mdl
+Loading type: 3
+Loading models/maps/tutorial01/simpleworldmodel.mdl
+Failed to load models/maps/tutorial01/simpleworldmodel.mdl!
+Loading: models/maps/tutorial01/simpleworldmodel_water.mdl
+Loading type: 3
+Loading models/maps/tutorial01/simpleworldmodel_water.mdl
+Failed to load models/maps/tutorial01/simpleworldmodel_water.mdl!
+Host_NewGame on map tutorial01
+Execing config: skill1.cfg
+exec: couldn't exec skill1.cfg
+Set Gravity 600.0 (0.250 tolerance)
+CStaticCollisionPolyhedronCache: Used 2.13 KB to cache 6 brush polyhedrons.
+CStaticCollisionPolyhedronCache: Used 7.79 KB to cache 15 static prop polyhedrons.
+==== calling mapspawn.nut show
+.AIN File will be updated
+
+Invalid file size for motd.txt
+Invalid file size for host.txt
+Commentary: Could not find commentary data file 'maps/tutorial01_commentary.txt'. 
+Event System loaded 125 events from file resource/serverevents.res.
+Event System loaded 125 events from file resource/gameevents.res.
+Event System loaded 125 events from file resource/ModEvents.res.
+Event System loaded 125 events from file resource/hltvevents.res.
+Game started
+Stopping All Sounds...
+1.000:  Sending UDP connect to public IP 127.0.0.1:27015
+Server using '<none>' lobbies, requiring pw no, lobby id 0
+RememberIPAddressForLobby: lobby 0 from address loopback
+(1.03) input obutaozim: obutaozim.CallScriptFunction(DispatchOnPostSpawn)
+
+Portal 2
+Map: tutorial01
+Players: 1 (0 bots) / 1 humans
+Build: 7054
+Server Number: 8
+
+Game event "server_spawn", Tick 0:
+- "hostname" = "Geras"
+- "address" = "loopback"
+- "port" = "0"
+- "game" = "portal2"
+- "mapname" = "tutorial01"
+- "maxplayers" = "1"
+- "os" = "W"
+- "dedicated" = "0"
+- "password" = "0"
+Initializing renderer...
+"Geras<9><STEAM_1:1:18936944><>" STEAM USERID validated
+Game event "game_newmap", Tick 96:
+- "mapname" = "tutorial01"
+Game event "game_newmap", Tick 96:
+- "mapname" = "tutorial01"
+Can't find factory for entity: wearable_item
+NULL Ent in UTIL_PrecacheOther
+[PORTAL2 PUZZLEMAKER]  --------START loading assets--------
+
+[PORTAL2 PUZZLEMAKER]  ---------END loading assets---------
+
+==== calling mapspawn.nut show
+Sending full update to Client Geras (Geras can't find frame from tick -1)
+Game event "portal_enabled", Tick 102:
+- "userid" = "9"
+- "leftportal" = "0"
+Game event "portal_enabled", Tick 102:
+- "userid" = "9"
+- "leftportal" = "1"
+Set Gravity 600.0 (0.250 tolerance)
+Signon traffic "CLIENT":  incoming 19.167 KB [21 pkts], outgoing 2.521 KB [43 pkts]
+Queued Material System: ENABLED!
+***********************************
+*         NO GAME SESSION         *
+* some features might be disabled *
+* (achievements, stats, UI, etc.) *
+***********************************
+CreateEvent: event 'player_connect_full' not registered.
+unhandled input: (OnPlayerSpawn) -> (game_player_manager), from (player,); target entity not found
+Game event "player_landed", Tick 110:
+- "userid" = "9"
+Game event "entity_visible", Tick 120:
+- "userid" = "9"
+- "subject" = "10"
+- "classname" = "prop_button"
+- "entityname" = "obutaozim"
+Redownloading all lightmaps
+R_RedownloadAllLightmaps took 0.291 msec!
+Setting cl_fov to 90.000000 and cl_viewmodelfov to 50.000000
+Game event "player_landed", Tick 590:
+- "userid" = "9"
+Game event "player_landed", Tick 692:
+- "userid" = "9"
+Stopping All Sounds...
+Stopping: Channel:64 player\player_fall_whoosh_lp_01.wav
+Queued Material System: DISABLED!
+Stopping All Sounds...
+Warning: Deleting orphaned children of player
+Dropped Geras from server (Server shutting down)
+  Adjusting game players 1.
+            game players = 1
+maxplayers set to 1
+---- Host_NewGame ----
+Execing config: game.cfg
+Network: IP 192.168.25.137, mode SP, dedicated No, ports 0 SV / 0 CL
+Opened Steam Socket NS_SERVER ( socket 3764 )
+Opened Steam Socket NS_CLIENT ( socket 3588 )
+Network: IP 192.168.25.137, mode MP, dedicated No, ports 27015 SV / 27005 CL
+Spawn Server: tutorial01
+Loading: maps/tutorial01.bsp
+Loading type: 1
+Loading brush, compacting heap...
+Loading map: maps/tutorial01.bsp
+Hunk_OnMapStart: 41943040
+Loading map: BeginLoadingUpdates...
+Loading map: Map_LoadModel...
+Loading: models/maps/tutorial01/simpleworldmodel.mdl
+Loading type: 3
+Loading models/maps/tutorial01/simpleworldmodel.mdl
+Failed to load models/maps/tutorial01/simpleworldmodel.mdl!
+Loading: models/maps/tutorial01/simpleworldmodel_water.mdl
+Loading type: 3
+Loading models/maps/tutorial01/simpleworldmodel_water.mdl
+Failed to load models/maps/tutorial01/simpleworldmodel_water.mdl!
+Host_NewGame on map tutorial01
+Execing config: skill1.cfg
+exec: couldn't exec skill1.cfg
+Set Gravity 600.0 (0.250 tolerance)
+CStaticCollisionPolyhedronCache: Used 2.13 KB to cache 6 brush polyhedrons.
+CStaticCollisionPolyhedronCache: Used 7.79 KB to cache 15 static prop polyhedrons.
+==== calling mapspawn.nut show
+.AIN File will be updated
+
+prop prop_physics at 10 121 25 missing modelname
+Invalid file size for motd.txt
+Invalid file size for host.txt
+Commentary: Could not find commentary data file 'maps/tutorial01_commentary.txt'. 
+Event System loaded 125 events from file resource/serverevents.res.
+Event System loaded 125 events from file resource/gameevents.res.
+Event System loaded 125 events from file resource/ModEvents.res.
+Event System loaded 125 events from file resource/hltvevents.res.
+Game started
+Stopping All Sounds...
+1.000:  Sending UDP connect to public IP 127.0.0.1:27015
+Server using '<none>' lobbies, requiring pw no, lobby id 0
+RememberIPAddressForLobby: lobby 0 from address loopback
+(1.03) input obutaozim: obutaozim.CallScriptFunction(DispatchOnPostSpawn)
+
+Portal 2
+Map: tutorial01
+Players: 1 (0 bots) / 1 humans
+Build: 7054
+Server Number: 9
+
+Game event "server_spawn", Tick 0:
+- "hostname" = "Geras"
+- "address" = "loopback"
+- "port" = "0"
+- "game" = "portal2"
+- "mapname" = "tutorial01"
+- "maxplayers" = "1"
+- "os" = "W"
+- "dedicated" = "0"
+- "password" = "0"
+Initializing renderer...
+"Geras<10><STEAM_1:1:18936944><>" STEAM USERID validated
+Game event "game_newmap", Tick 96:
+- "mapname" = "tutorial01"
+Game event "game_newmap", Tick 96:
+- "mapname" = "tutorial01"
+Can't find factory for entity: wearable_item
+NULL Ent in UTIL_PrecacheOther
+[PORTAL2 PUZZLEMAKER]  --------START loading assets--------
+
+[PORTAL2 PUZZLEMAKER]  ---------END loading assets---------
+
+==== calling mapspawn.nut show
+Sending full update to Client Geras (Geras can't find frame from tick -1)
+Game event "portal_enabled", Tick 102:
+- "userid" = "10"
+- "leftportal" = "0"
+Game event "portal_enabled", Tick 102:
+- "userid" = "10"
+- "leftportal" = "1"
+Set Gravity 600.0 (0.250 tolerance)
+Signon traffic "CLIENT":  incoming 19.167 KB [21 pkts], outgoing 2.521 KB [43 pkts]
+Queued Material System: ENABLED!
+***********************************
+*         NO GAME SESSION         *
+* some features might be disabled *
+* (achievements, stats, UI, etc.) *
+***********************************
+CreateEvent: event 'player_connect_full' not registered.
+unhandled input: (OnPlayerSpawn) -> (game_player_manager), from (player,); target entity not found
+Game event "player_landed", Tick 110:
+- "userid" = "10"
+Game event "entity_visible", Tick 120:
+- "userid" = "10"
+- "subject" = "10"
+- "classname" = "prop_button"
+- "entityname" = "obutaozim"
+Redownloading all lightmaps
+R_RedownloadAllLightmaps took 0.108 msec!
+Setting cl_fov to 90.000000 and cl_viewmodelfov to 50.000000
+Geras unpaused the game
+Geras unpaused the game
+Stopping All Sounds...
+Stopping: Channel:64 player\player_fall_whoosh_lp_01.wav
+Queued Material System: DISABLED!
+Stopping All Sounds...
+Warning: Deleting orphaned children of player
+Dropped Geras from server (Server shutting down)
+  Adjusting game players 1.
+            game players = 1
+maxplayers set to 1
+---- Host_NewGame ----
+Execing config: game.cfg
+Network: IP 192.168.25.137, mode SP, dedicated No, ports 0 SV / 0 CL
+Opened Steam Socket NS_SERVER ( socket 3936 )
+Opened Steam Socket NS_CLIENT ( socket 3912 )
+Network: IP 192.168.25.137, mode MP, dedicated No, ports 27015 SV / 27005 CL
+Spawn Server: tutorial01
+Loading: maps/tutorial01.bsp
+Loading type: 1
+Loading brush, compacting heap...
+Loading map: maps/tutorial01.bsp
+Hunk_OnMapStart: 41943040
+Loading map: BeginLoadingUpdates...
+Loading map: Map_LoadModel...
+Loading: models/maps/tutorial01/simpleworldmodel.mdl
+Loading type: 3
+Loading models/maps/tutorial01/simpleworldmodel.mdl
+Failed to load models/maps/tutorial01/simpleworldmodel.mdl!
+Loading: models/maps/tutorial01/simpleworldmodel_water.mdl
+Loading type: 3
+Loading models/maps/tutorial01/simpleworldmodel_water.mdl
+Failed to load models/maps/tutorial01/simpleworldmodel_water.mdl!
+Host_NewGame on map tutorial01
+Execing config: skill1.cfg
+exec: couldn't exec skill1.cfg
+Set Gravity 600.0 (0.250 tolerance)
+CStaticCollisionPolyhedronCache: Used 2.13 KB to cache 6 brush polyhedrons.
+CStaticCollisionPolyhedronCache: Used 7.79 KB to cache 15 static prop polyhedrons.
+==== calling mapspawn.nut show
+.AIN File will be updated
+
+Invalid file size for motd.txt
+Invalid file size for host.txt
+Commentary: Could not find commentary data file 'maps/tutorial01_commentary.txt'. 
+Event System loaded 125 events from file resource/serverevents.res.
+Event System loaded 125 events from file resource/gameevents.res.
+Event System loaded 125 events from file resource/ModEvents.res.
+Event System loaded 125 events from file resource/hltvevents.res.
+Game started
+Stopping All Sounds...
+1.000:  Sending UDP connect to public IP 127.0.0.1:27015
+Server using '<none>' lobbies, requiring pw no, lobby id 0
+RememberIPAddressForLobby: lobby 0 from address loopback
+(1.03) input obutaozim: obutaozim.CallScriptFunction(DispatchOnPostSpawn)
+
+Portal 2
+Map: tutorial01
+Players: 1 (0 bots) / 1 humans
+Build: 7054
+Server Number: 10
+
+Game event "server_spawn", Tick 0:
+- "hostname" = "Geras"
+- "address" = "loopback"
+- "port" = "0"
+- "game" = "portal2"
+- "mapname" = "tutorial01"
+- "maxplayers" = "1"
+- "os" = "W"
+- "dedicated" = "0"
+- "password" = "0"
+Initializing renderer...
+Game event "game_newmap", Tick 94:
+- "mapname" = "tutorial01"
+Game event "game_newmap", Tick 94:
+- "mapname" = "tutorial01"
+Can't find factory for entity: wearable_item
+NULL Ent in UTIL_PrecacheOther
+[PORTAL2 PUZZLEMAKER]  --------START loading assets--------
+
+[PORTAL2 PUZZLEMAKER]  ---------END loading assets---------
+
+==== calling mapspawn.nut show
+"Geras<11><STEAM_1:1:18936944><>" STEAM USERID validated
+Sending full update to Client Geras (Geras can't find frame from tick -1)
+Game event "portal_enabled", Tick 100:
+- "userid" = "11"
+- "leftportal" = "0"
+Game event "portal_enabled", Tick 100:
+- "userid" = "11"
+- "leftportal" = "1"
+Set Gravity 600.0 (0.250 tolerance)
+Signon traffic "CLIENT":  incoming 19.167 KB [21 pkts], outgoing 2.433 KB [41 pkts]
+Queued Material System: ENABLED!
+***********************************
+*         NO GAME SESSION         *
+* some features might be disabled *
+* (achievements, stats, UI, etc.) *
+***********************************
+CreateEvent: event 'player_connect_full' not registered.
+(1.73) output: (logic_auto,) -> (oproprio,RunScriptCode)(yourFunctionName())
+unhandled input: (OnPlayerSpawn) -> (game_player_manager), from (player,); target entity not found
+(1.73) input : oproprio.RunScriptCode(yourFunctionName())
+
+AN ERROR HAS OCCURED [the index 'yourFunctionName' does not exist]
+
+CALLSTACK
+*FUNCTION [main()] InputRunScript line [1]
+
+LOCALS
+[this] TABLE
+ Entity oproprio encountered an error in RunScript()
+Game event "player_landed", Tick 108:
+- "userid" = "11"
+Redownloading all lightmaps
+R_RedownloadAllLightmaps took 0.091 msec!
+Setting cl_fov to 90.000000 and cl_viewmodelfov to 50.000000
+Game event "entity_visible", Tick 122:
+- "userid" = "11"
+- "subject" = "10"
+- "classname" = "prop_button"
+- "entityname" = "obutaozim"
+Geras unpaused the game
+Geras unpaused the game
+Stopping All Sounds...
+Stopping: Channel:64 player\player_fall_whoosh_lp_01.wav
+Queued Material System: DISABLED!
+Stopping All Sounds...
+Warning: Deleting orphaned children of player
+Dropped Geras from server (Server shutting down)
+  Adjusting game players 1.
+            game players = 1
+maxplayers set to 1
+---- Host_NewGame ----
+Execing config: game.cfg
+Network: IP 192.168.25.137, mode SP, dedicated No, ports 0 SV / 0 CL
+Opened Steam Socket NS_SERVER ( socket 3012 )
+Opened Steam Socket NS_CLIENT ( socket 3696 )
+Network: IP 192.168.25.137, mode MP, dedicated No, ports 27015 SV / 27005 CL
+Spawn Server: tutorial01
+Loading: maps/tutorial01.bsp
+Loading type: 1
+Loading brush, compacting heap...
+Loading map: maps/tutorial01.bsp
+Hunk_OnMapStart: 41943040
+Loading map: BeginLoadingUpdates...
+Loading map: Map_LoadModel...
+Loading: models/maps/tutorial01/simpleworldmodel.mdl
+Loading type: 3
+Loading models/maps/tutorial01/simpleworldmodel.mdl
+Failed to load models/maps/tutorial01/simpleworldmodel.mdl!
+Loading: models/maps/tutorial01/simpleworldmodel_water.mdl
+Loading type: 3
+Loading models/maps/tutorial01/simpleworldmodel_water.mdl
+Failed to load models/maps/tutorial01/simpleworldmodel_water.mdl!
+Host_NewGame on map tutorial01
+Execing config: skill1.cfg
+exec: couldn't exec skill1.cfg
+Set Gravity 600.0 (0.250 tolerance)
+CStaticCollisionPolyhedronCache: Used 2.13 KB to cache 6 brush polyhedrons.
+CStaticCollisionPolyhedronCache: Used 7.79 KB to cache 15 static prop polyhedrons.
+==== calling mapspawn.nut show
+.AIN File will be updated
+
+Invalid file size for motd.txt
+Invalid file size for host.txt
+Commentary: Could not find commentary data file 'maps/tutorial01_commentary.txt'. 
+Event System loaded 125 events from file resource/serverevents.res.
+Event System loaded 125 events from file resource/gameevents.res.
+Event System loaded 125 events from file resource/ModEvents.res.
+Event System loaded 125 events from file resource/hltvevents.res.
+Game started
+Stopping All Sounds...
+1.000:  Sending UDP connect to public IP 127.0.0.1:27015
+Server using '<none>' lobbies, requiring pw no, lobby id 0
+RememberIPAddressForLobby: lobby 0 from address loopback
+(1.03) input oproprio: oproprio.CallScriptFunction(DispatchOnPostSpawn)
+(1.03) input obutaozim: obutaozim.CallScriptFunction(DispatchOnPostSpawn)
+
+Portal 2
+Map: tutorial01
+Players: 1 (0 bots) / 1 humans
+Build: 7054
+Server Number: 11
+
+Game event "server_spawn", Tick 0:
+- "hostname" = "Geras"
+- "address" = "loopback"
+- "port" = "0"
+- "game" = "portal2"
+- "mapname" = "tutorial01"
+- "maxplayers" = "1"
+- "os" = "W"
+- "dedicated" = "0"
+- "password" = "0"
+Initializing renderer...
+Game event "game_newmap", Tick 96:
+- "mapname" = "tutorial01"
+Game event "game_newmap", Tick 96:
+- "mapname" = "tutorial01"
+Can't find factory for entity: wearable_item
+NULL Ent in UTIL_PrecacheOther
+[PORTAL2 PUZZLEMAKER]  --------START loading assets--------
+
+[PORTAL2 PUZZLEMAKER]  ---------END loading assets---------
+
+==== calling mapspawn.nut show
+"Geras<12><STEAM_1:1:18936944><>" STEAM USERID validated
+Sending full update to Client Geras (Geras can't find frame from tick -1)
+Game event "portal_enabled", Tick 102:
+- "userid" = "12"
+- "leftportal" = "0"
+Game event "portal_enabled", Tick 102:
+- "userid" = "12"
+- "leftportal" = "1"
+Set Gravity 600.0 (0.250 tolerance)
+Signon traffic "CLIENT":  incoming 19.168 KB [21 pkts], outgoing 2.521 KB [43 pkts]
+Queued Material System: ENABLED!
+***********************************
+*         NO GAME SESSION         *
+* some features might be disabled *
+* (achievements, stats, UI, etc.) *
+***********************************
+CreateEvent: event 'player_connect_full' not registered.
+(1.77) output: (logic_auto,) -> (oproprio,RunScriptCode)(yourFunctionName())
+unhandled input: (OnPlayerSpawn) -> (game_player_manager), from (player,); target entity not found
+(1.77) input : oproprio.RunScriptCode(yourFunctionName())
+FOIIIIIIIIIIIIIIIIIIIIIIIII
+Game event "player_landed", Tick 110:
+- "userid" = "12"

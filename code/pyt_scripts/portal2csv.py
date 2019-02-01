@@ -75,7 +75,7 @@ def convert(input_filename, output_filename, must_override=False):
         for line in range(1,len(events_matrix)):
             na_fill(line, NumberOfColumns) # fill in remaining empty spaces with "NA"
 
-        with open(output_filename, 'w') as csvFile: # write the event_matrix in a csv file 
+        with open(output_filename, 'w', newline='') as csvFile: # write the event_matrix in a csv file 
             writer = csv.writer(csvFile)
             for row in events_matrix:
                 writer.writerow(row)

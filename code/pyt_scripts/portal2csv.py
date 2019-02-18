@@ -5,7 +5,6 @@
     import portal2csv
     portal2csv.convert(input_filename, output_filename)
 """
-import os
 import csv
 from pathlib import Path
 
@@ -18,7 +17,7 @@ def file_exists(absolute_path):
     else:
         return True
 
-def convert(input_filename, output_filename, must_override=False):
+def convert(input_filename, output_filename=None, must_override=False):
     def column_index_from_header(header):
         """
         If the header already exists return its index, else return -1
@@ -36,19 +35,23 @@ def convert(input_filename, output_filename, must_override=False):
         for _ in range(len(events_matrix[line]), column_index):
             events_matrix[line] += ["NA"]
 
+    if output_filename == None:
+        filename, fileext = os.path.splitext(input_filename)
+        output_filename = filename+'.csv' 
+     
     if file_exists(output_filename):
         if not must_override:
             print('Output file exists, cannot proceed:' + output_filename)
             return
 
     if file_exists(input_filename):
-        # the matrix where will be stored the game events from the log file  
+        # the matrix where will be stored the game events from the log file
         events_matrix = [["Event", "Time"]]
         # opening the log file
         with  open(input_filename) as input_file:
             line = input_file.readline()
             current_line = 0
-            while line:    
+            while line:
                 if line.startswith('Game event'): # creates a new line in the matrix for each Game Event  
                     current_line += 1
                     events_matrix += [[
@@ -58,7 +61,7 @@ def convert(input_filename, output_filename, must_override=False):
                     while line.startswith('-'): # values of a Game Event starts with '-' in the log file
                         current_header = line.split('=')[0].split()[1].replace('"','')
                         current_value = line.split('=')[1].replace('"','').replace('\n','')
-                        column_index = column_index_from_header(current_header)  
+                        column_index = column_index_from_header(current_header)
                         if column_index >= 0: # if the current header already exists
                             na_fill(current_line, column_index)
                             events_matrix [current_line] += [current_value] # add the current_value in the events_matrix
@@ -75,20 +78,28 @@ def convert(input_filename, output_filename, must_override=False):
         for line in range(1,len(events_matrix)):
             na_fill(line, NumberOfColumns) # fill in remaining empty spaces with "NA"
 
-        with open(output_filename, 'w', newline='') as csvFile: # write the event_matrix in a csv file 
+        with open(output_filename, 'w', newline='') as csvFile: # write the event_matrix in a csv file
             writer = csv.writer(csvFile)
             for row in events_matrix:
                 writer.writerow(row)
             csvFile.close()
+
+        print('Create' +' '+ output_filename)
     else:
         print(input_filename +' '+ 'not found.')
 
 if __name__ == '__main__':
-    basepath = os.path.dirname(os.path.abspath(__file__))
-    
-    input_filename = 'logbotao'
-    input_filepath = os.path.join(basepath, input_filename)
+    import os
+    from glob import glob
 
-    output_filename = 'report.csv'
-    output_filepath = os.path.join(basepath, output_filename)
-    convert(input_filepath, output_filepath, True)
+    def get_files(src_directory):
+        target_filters = ['*.txt']
+        glob_lists = [glob(os.path.join(src_directory, tf)) for tf in target_filters]
+        return [sorted(glob_list) for glob_list in glob_lists][0]
+
+    basepath = os.path.dirname(os.path.abspath(__file__))
+    input_filepath = os.path.join(basepath, 'data')
+    data_files = get_files(input_filepath)
+
+    for file in data_files:
+        convert(file)

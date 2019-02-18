@@ -1,16 +1,20 @@
 # Important links
 
+## GameFrame, OnFrame callback
+
+  - https://developer.valvesoftware.com/wiki/IServerPluginCallbacks
+
 ## Developer Console Control
 
-https://developer.valvesoftware.com/wiki/Developer_Console_Control
+  - https://developer.valvesoftware.com/wiki/Developer_Console_Control
 
 ## Create a Portal 2 Mod
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=234558809
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=234558809
 
 ## Using Dlls in Visual Studio
 
-https://github.com/MicrosoftDocs/cpp-docs/blob/master/docs/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp.md
+  - https://github.com/MicrosoftDocs/cpp-docs/blob/master/docs/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp.md
 
 ## Plugin system and speed run timer for portal 2 and other valve games
 

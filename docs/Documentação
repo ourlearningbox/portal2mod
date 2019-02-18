@@ -28,10 +28,18 @@ Comandos que configuram o Log:
 
 ## Funções do Vscript:
 
-- SendToConsole(string command)   manda uma string como comando para o console (Parece não funcionar no "mapspawn.nut") 
-- println ()   manda uma string para o console
+  - SendToConsole(string command)   manda uma string como comando para o console (Parece não funcionar no "mapspawn.nut") 
+  
+  - println ()   manda uma string para o console
 
 ## Entidades Lógicas
-- logic_achievement usada para controlar o sistema de achievements
-- logic_timer É usado ativar um evento perioticamente 
-- 
+  
+  - logic_achievement usada para controlar o sistema de achievements
+  
+  - logic_timer É usado ativar um evento perioticamente 
+
+## Gravação - Demo recording (.dem files)
+
+  - Inicie uma gravação: "record FILENAME". Pare uma gravação: "stop". Execute uma gravação: "playdemo FILENAME".
+  
+  - Gravações registram todos os eventos que ocorrem no mapa. Os arquivos .dem dependem do mapa correspondente para serem executados. Editar o mapa correspondente corrompe o arquivo .dem, portanto crie uma cópia de segurança do mapa caso precise editá-lo.

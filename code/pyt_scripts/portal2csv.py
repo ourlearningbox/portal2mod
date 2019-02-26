@@ -41,7 +41,7 @@ def convert(input_filename, output_filename=None, must_override=False):
         Starts from the last position of that matrix line until the index of the header corresponding to that value
         """
         for _ in range(len(events_matrix[line]), column_index):
-            events_matrix[line] += ['NA']
+            events_matrix[line].append('')
 
     if output_filename == None:
         filename, fileext = os.path.splitext(input_filename)
@@ -64,24 +64,23 @@ def convert(input_filename, output_filename=None, must_override=False):
                     event = in_between('Game event "', '", Tick')
                     tick = in_between('", Tick ', ':')
                     current_line += 1
-                    events_matrix += [[event, tick]];
+                    events_matrix.append([event, tick]);
                     line = input_file.readline()
-                    while line.startswith('-'): # values of a Game Event starts with '-' in the log file
+                    while line.startswith('-'): # items of a Game Event starts with '-' in the log file
                         current_header = in_between('- "', '" = "')
                         current_value = in_between('" = "','"')
                         column_index = column_index_from_header(current_header)
                         if column_index >= 0: # if the current header already exists
                             na_fill(current_line, column_index)
-                            events_matrix[current_line] += [current_value] # add the current_value in the events_matrix
+                            events_matrix[current_line].append(current_value) # add the current_value in the events_matrix
                         else:                 # if the current header  doesn't exists 
-                            events_matrix[0] += [current_header]
+                            events_matrix[0].append(current_header)
                             na_fill(current_line, column_index)
-                            events_matrix[current_line] += [current_value] # add the current_value in the events_matrix
+                            events_matrix[current_line].append(current_value) # add the current_value in the events_matrix
                         line = input_file.readline()
                 line = input_file.readline()
             input_file.close()
 
-        current_line = 1
         number_of_columns = len(events_matrix[0])
         for line in range(1,len(events_matrix)):
             na_fill(line, number_of_columns) # fill in remaining empty spaces with "NA"

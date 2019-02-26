@@ -75,6 +75,7 @@ def convert(input_filename, output_filename=None, must_override=False):
                             events_matrix[current_line].append(current_value) # add the current_value in the events_matrix
                         else:                 # if the current header  doesn't exists 
                             events_matrix[0].append(current_header)
+                            column_index = column_index_from_header(current_header)
                             na_fill(current_line, column_index)
                             events_matrix[current_line].append(current_value) # add the current_value in the events_matrix
                         line = input_file.readline()

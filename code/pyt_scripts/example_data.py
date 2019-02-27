@@ -1,3 +1,15 @@
+"""
+
+python 3 dependencies
+
+# install python 3.7.2
+https://www.python.org/downloads/
+
+# Power Shell
+py -m pip install -U pip
+py -m pip install -U matplotlib
+"""
+
 import matplotlib
 import matplotlib.pyplot as plt
 
